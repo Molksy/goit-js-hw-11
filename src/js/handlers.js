@@ -25,7 +25,7 @@ export async function onFormSubmit(e) {
   if (request === '') {
     hideBtnLoadMore();
     return Notiflix.Notify.failure(
-      'Sorry, there are no images matching your search query. Please try again.'
+      'You have not filled in the search field. Please fill in the field.'
     );
   }
 
